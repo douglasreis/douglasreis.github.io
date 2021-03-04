@@ -6,7 +6,7 @@ repository: douglasreis/douglasreis.github.io
 name: Douglas Reis
 title: Senior Full Stack Developer
 email: douglas@douglasreis.co.uk
-website: www.douglasreis.co.uk
+website: http://www.douglasreis.co.uk
 
 # Social links
 twitter_username: DougReis
@@ -24,7 +24,9 @@ linkedin_username: reisdouglas
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Doug and I'm a passionate Senior Full Stack Software Developer 🚀 having an experience of building multiple applications with .Net / Node.js / JavaScript / Python and I really like to be involved with cloud development and infrastructure as a code. As well as managing teams I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  Hi, my name's Doug and I'm a passionate Senior Full Stack Software Developer 🚀 having an experience of building multiple applications with .Net / Node.js / JavaScript / Python. Lately I have been involved in several projects in AWS and other tools such as CI/CD to enable other developers to deliver their products in a efficient and reliable manner. Those projects have instigated in me more interest to learn even more about cloud ☁️ development and infrastructure as code.
+  
+  I have worked in a number of companies gaining teamwork and leadership skills and in this path I've learnt a lot how to offer support to other people in their career development. This part of my job has been very gratifying in my journey. 🙌
 
   I am most skilled in: <mark>.Net</mark> and <mark>AWS services</mark>
 
