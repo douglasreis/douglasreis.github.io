@@ -1,9 +1,18 @@
 - layout: left
-  company: The Boring Company
-  link: boringcompany.com
-  job_title: Senior Network System Administrator
-  dates: November 2017 - Present
+  company: Totaljobs Group
+  link: www.totaljobs.com
+  job_title: Managing Senior Developer
+  dates: May 2011 - Present
   quote: >
-   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+   Our people make moves matter
   description: | # this will include new lines to allow paragraphs
-    Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+    Finding the right job or the right candidate is not one of the easiest tasks. Developing tools and intelligence behind the hiring and jobseeking process has been my life in Totaljobs Group for a few years already. I have circulated in various projects and worked with very interesting people in the business. I have been helping in forming teams and developing people during my time in the company. The company also gives me a lot of space for experimentation and learning new technologies.
+- layout: right
+  company: Volume
+  link: www.volume.ai
+  job_title: Lead Developer
+  dates: Feb 2009 - May 2011
+  quote: >
+   Look forward
+  description: | # this will include new lines to allow paragraphs
+    Developing and managing day-to-day operational aspects of medium to large scale projects for some the of the world’s largest organizations. Giving maintenance to existing projects and covering all development workflow for successful implementations; starting from technical specification, tasks estimative, UML documentation, framework generation, management documentation (tasks lists and schedule timeline), development, QA process and other important tasks throughout. Currently developing a new prototype module using social networks APIs as Facebook, LinkedIn and Twitter; also implementing SEO techniques; and developing the mobile applications for iPhone/iPad and Android devices using cross-platform frameworks (PhoneGap and Titanium Appcelerator).
