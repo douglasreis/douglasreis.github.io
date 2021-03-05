@@ -112,7 +112,7 @@ content:
           During my time with OU I've learnt how to manage my own time better to study and get the accreditations I aimed for at my own pace. Being an open certificate gave me the flexibility to explore different subjects that I was curious about.
       - layout: top-right
         title: University of São Paulo (USP)
-        sub_title: Qualifications (eg. BA Performing Arts)
+        sub_title: BSc Computer Science (completed 180 credits)
         caption: 1996 - 2000
         quote: >
           The University of São Paulo (USP) is a public university, maintained by the State of São Paulo and affiliated with the State Secretariat of Economic, Scientific and Technological Development. Various world rankings, created to measure the quality of universities according to various criteria, particularly those related to scientific productivity, have widely recognized the talent and dedication of USP professors, students and employees.
@@ -125,7 +125,7 @@ content:
        - Traveling
        - Skiing
        - Motorcycles
-       - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+       - Archery
 
 # Footer
 footer_show_references: true
