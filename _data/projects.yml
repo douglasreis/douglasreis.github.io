@@ -1,8 +1,0 @@
-- layout: top-middle
-  name: OpenCV Timelapse project
-  link: github.com/douglasreis/opencv-timelapse
-  github: douglasreis/opencv-timelapse
-  quote: >
-    Putting my passion about RaspberryPI and coding together in this project.
-  description: | # this will include new lines to allow paragraphs
-    I started this project as a way if learning more about <mark>Python</mark> and the <mark>OpenCV</mark> library to manipulate images and it is growing into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio.

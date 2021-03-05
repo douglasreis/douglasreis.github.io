@@ -1,27 +1,55 @@
 # Site
 repository: douglasreis/douglasreis.github.io
-# favicon: images/favicon.ico
+# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+
+# Content configuration version
+version: 2
 
 # Personal info
 name: Douglas Reis
 title: Senior Full Stack Developer
 email: douglas@douglasreis.co.uk
+# email_title: Email (Email title override)
+# phone: Your phone number (optional)
+# phone_title: Phone (Phone title override)
 website: http://www.douglasreis.co.uk
+# website_title: Web (Website title override)
 
-# Social links
+# Dark Mode (true/false/never)  
+darkmode: false
+
+# Socia l links
 twitter_username: DougReis
 github_username:  douglasreis
+stackoverflow_username: "8420727"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
 # instagram_username: chillwildlife
 linkedin_username: reisdouglas
+# xing_username: jekyll
 # pinterest_username: jekyll
 # youtube_username: globalmtb
 # googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+additional_links:
+- title: Doug Reis' Blog
+  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+  url: https://www.justdoug.uk
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+google_analytics: "UA-191456132-1"
 
 # About Section
-# about_title: About Me
+# about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Doug and I'm a passionate Senior Full Stack Software Developer 🚀 having an experience of building multiple applications with .Net / Node.js / JavaScript / Python. Lately I have been involved in several projects in AWS and other tools such as CI/CD to enable other developers to deliver their products in a efficient and reliable manner. Those projects have instigated in me more interest to learn even more about cloud ☁️ development and infrastructure as code.
@@ -30,29 +58,82 @@ about_content: | # this will include new lines to allow paragraphs
 
   I am most skilled in: <mark>.Net</mark> and <mark>AWS services</mark>
 
-# Projects Section
-# projects_title: Projects
-
-# Experience Section
-# experience_title: Experience
-
-# Education Section
-# educaton_title: Education
-
-# More Section
-# more_title: A Little More About Me
-more_content: | # this will include new lines to allow paragraphs
-  Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-   - Traveling
-   - Skiing
-   - Motorcycles
-   - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+content:
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: OpenCV Timelapse project
+        link: github.com/douglasreis/opencv-timelapse
+        # link_text: Link Text
+        # additional_links:
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        github: douglasreis/opencv-timelapse
+        quote: >
+          Putting my passion about RaspberryPI and coding together in this project.
+        description: | # this will include new lines to allow paragraphs
+          I started this project as a way if learning more about <mark>Python</mark> and the <mark>OpenCV</mark> library to manipulate images and it is growing into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio.
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        title: Totaljobs Group
+        sub_title: Managing Senior Developer
+        caption: May 2011 - Present
+        link: www.totaljobs.com
+        quote: >
+          Our people make moves matter
+        description: | # this will include new lines to allow paragraphs
+          Finding the right job or the right candidate is not one of the easiest tasks. Developing tools and intelligence behind the hiring and jobseeking process has been my life in Totaljobs Group for a few years already. I have circulated in various projects and worked with very interesting people in the business. I have been helping in forming teams and developing people during my time in the company. The company also gives me a lot of space for experimentation and learning new technologies.
+      - layout: right
+        title: Volume
+        sub_title: Lead Developer
+        caption: Feb 2009 - May 2011
+        link: www.volume.ai
+        quote: >
+          Look forward
+        description: | # this will include new lines to allow paragraphs
+          Developing and managing day-to-day operational aspects of medium to large scale projects for some the of the world’s largest organizations. Giving maintenance to existing projects and covering all development workflow for successful implementations; starting from technical specification, tasks estimative, UML documentation, framework generation, management documentation (tasks lists and schedule timeline), development, QA process and other important tasks throughout. Currently developing a new prototype module using social networks APIs as Facebook, LinkedIn and Twitter; also implementing SEO techniques; and developing the mobile applications for iPhone/iPad and Android devices using cross-platform frameworks (PhoneGap and Titanium Appcelerator).
+  - title: Education
+    layout: list
+    content:
+      - layout: top-left
+        title: The Open University
+        sub_title: Certificate of Higher Education Open
+        caption: 2009 - 2011
+        quote: >
+          The Open University is the largest academic institution in the UK and a world leader in flexible distance learning. Since it began in 1969, the OU has taught more than 2 million students worldwide.
+        description: | # this will include new lines to allow paragraphs
+          During my time with OU I've learnt how to manage my own time better to study and get the accreditations I aimed for at my own pace. Being an open certificate gave me the flexibility to explore different subjects that I was curious about.
+      - layout: top-right
+        title: University of São Paulo (USP)
+        sub_title: Qualifications (eg. BA Performing Arts)
+        caption: 1996 - 2000
+        quote: >
+          The University of São Paulo (USP) is a public university, maintained by the State of São Paulo and affiliated with the State Secretariat of Economic, Scientific and Technological Development. Various world rankings, created to measure the quality of universities according to various criteria, particularly those related to scientific productivity, have widely recognized the talent and dedication of USP professors, students and employees.
+        description: | # this will include new lines to allow paragraphs
+          Whilst learning so many different topics in different areas (Computation, Mathematics and Physics), I have started to develop a truely passion towards solving problems. The process to find answers for specific needs and requirements during my time at the university has given a solid foundation to become the passionate and dedicate professinal I am.
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+       - Traveling
+       - Skiing
+       - Motorcycles
+       - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
 
 # Footer
 footer_show_references: true
+# references_title: References on request (Override references text)
 
 # Build settings
-# remote_theme: sproogen/resume-theme
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
 
 sass:
   sass_dir: _sass
@@ -60,3 +141,16 @@ sass:
 
 plugins:
  - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
