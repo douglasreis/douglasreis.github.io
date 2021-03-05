@@ -36,7 +36,7 @@ linkedin_username: reisdouglas
 # Additional icon links
 additional_links:
 - title: Doug Reis' Blog
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+  icon: fas fa-blog
   url: https://www.justdoug.uk
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
